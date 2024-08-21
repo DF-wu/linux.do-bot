@@ -8,6 +8,7 @@ on:
       - main
   schedule:
     - cron: '0 */6 * * *'  # 对应中国时间的每天凌晨3点
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   run-linuxdo:
